@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源7.cpp">
+    <ClInclude Include="stock00.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stock00.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源8.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
