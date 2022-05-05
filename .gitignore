@@ -363,5 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # visual studio
-CppLearning.vcxproj
-CppLearning.vcxproj.filters
+CppLearning/CppLearning.vcxproj
+CppLearning/CppLearning.vcxproj.filters
