@@ -13,6 +13,7 @@ public:
 	void Reset(int h = 0, int m = 0);
 	Time operator+(const Time& t) const;
 	void Show() const;
+	friend Time operator*(double m, const Time& t);
 
 private:
 	int hours;

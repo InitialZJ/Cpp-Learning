@@ -47,3 +47,12 @@ void Time::Show() const
 {
 	std::cout << hours << " hours, " << minutes << " minutes";
 }
+
+Time operator*(double m, const Time& t)
+{
+	Time result;
+	long totalminutes = t.hours * m * 60 + t.minutes * m;
+	result.hours = totalminutes / 60;
+	result.minutes = totalminutes % 60;
+	return result;
+}
