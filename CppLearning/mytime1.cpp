@@ -52,7 +52,8 @@ Time operator*(double m, const Time& t)
 	return result;
 }
 
-void operator<<(std::ostream& os, const Time& t)
+std::ostream& operator<<(std::ostream& os, const Time& t)
 {
 	os << t.hours << " hours, " << t.minutes << " minutes";
+	return os;
 }

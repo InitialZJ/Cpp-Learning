@@ -1,4 +1,3 @@
-#include <iostream>
 #include "mytime1.h"
 
 int main()
@@ -31,6 +30,9 @@ int main()
 	cout << "1.5 * coding = ";
 	cout << multi;
 	cout << endl;
+
+	//现在可以在类之后再接 << 输出其他的东西
+	cout << "aaa\n" << multi << "\nbbb\n";
 
 	return 0;
 }
