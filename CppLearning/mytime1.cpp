@@ -43,11 +43,6 @@ Time Time::operator+(const Time& t) const
 	return sum;
 }
 
-void Time::Show() const
-{
-	std::cout << hours << " hours, " << minutes << " minutes";
-}
-
 Time operator*(double m, const Time& t)
 {
 	Time result;
@@ -55,4 +50,9 @@ Time operator*(double m, const Time& t)
 	result.hours = totalminutes / 60;
 	result.minutes = totalminutes % 60;
 	return result;
+}
+
+void operator<<(std::ostream& os, const Time& t)
+{
+	os << t.hours << " hours, " << t.minutes << " minutes";
 }

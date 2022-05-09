@@ -11,25 +11,25 @@ int main()
 	Time total, multi;
 
 	cout << "planning time = ";
-	planning.Show();
+	cout << planning;
 	cout << endl;
 
 	cout << "coding time = ";
-	coding.Show();
+	cout << coding;
 	cout << endl;
 
 	cout << "fixing time = ";
-	fixing.Show();
+	cout << fixing;
 	cout << endl;
 
 	total = coding + fixing;
 	cout << "coding + fixing = ";
-	total.Show();
+	cout << total;
 	cout << endl;
 
 	multi = 1.5 * coding;
 	cout << "1.5 * coding = ";
-	multi.Show();
+	cout << multi;
 	cout << endl;
 
 	return 0;

@@ -1,6 +1,7 @@
 #pragma once
 #ifndef MYTIME1_H_
 #define MYTIME1_H_
+#include <iostream>
 
 class Time
 {
@@ -12,8 +13,8 @@ public:
 	void AddHr(int h);
 	void Reset(int h = 0, int m = 0);
 	Time operator+(const Time& t) const;
-	void Show() const;
 	friend Time operator*(double m, const Time& t);
+	friend void operator<<(std::ostream& os, const Time& t);
 
 private:
 	int hours;
