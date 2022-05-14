@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mytime1.h" />
+    <ClInclude Include="stringbad.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mytime1.cpp" />
-    <ClCompile Include="usetime1.cpp" />
+    <ClCompile Include="stringbad.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="usestringbad.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
