@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tabtenn1.h" />
+    <ClInclude Include="brass.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tabtenn1.cpp" />
-    <ClCompile Include="usett1.cpp" />
+    <ClCompile Include="brass.cpp" />
+    <ClCompile Include="usebrass1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
