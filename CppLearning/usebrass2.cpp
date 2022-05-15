@@ -45,6 +45,7 @@ int main()
 	cout << endl;
 	for (int i = 0; i < CLIENTS; i++)
 	{
+		//多态性
 		p_clients[i]->ViewAcct();
 		cout << endl;
 	}
