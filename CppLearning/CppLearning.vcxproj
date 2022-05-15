@@ -19,13 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stringbad.h" />
+    <ClInclude Include="tabtenn1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stringbad.cpp">
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-    </ClCompile>
-    <ClCompile Include="usestringbad.cpp" />
+    <ClCompile Include="tabtenn1.cpp" />
+    <ClCompile Include="usett1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
