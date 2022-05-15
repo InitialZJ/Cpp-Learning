@@ -23,7 +23,7 @@
     <ClCompile Include="brass.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="usebrass1.cpp">
+    <ClCompile Include="usebrass2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
