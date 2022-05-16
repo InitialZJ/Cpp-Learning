@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="studenti.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="studenti.cpp" />
-    <ClCompile Include="use_stui.cpp" />
+    <ClInclude Include="stacktp.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

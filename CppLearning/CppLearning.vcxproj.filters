@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="studenti.h">
+    <ClInclude Include="stacktp.h">
       <Filter>头文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="studenti.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="use_stui.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
