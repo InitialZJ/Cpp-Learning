@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stacktp.h" />
+    <ClInclude Include="tv.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tv.cpp" />
+    <ClCompile Include="use_tv.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
