@@ -15,15 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tv.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="tv.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="use_tv.cpp">
+    <ClCompile Include="error1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

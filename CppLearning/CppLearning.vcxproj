@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tv.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="tv.cpp" />
-    <ClCompile Include="use_tv.cpp" />
+    <ClCompile Include="error1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
