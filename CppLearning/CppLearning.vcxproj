@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="error3.cpp" />
+    <ClCompile Include="error4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exc_mean.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
