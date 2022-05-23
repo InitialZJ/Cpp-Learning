@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="list.cpp">
+    <ClCompile Include="setops.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
