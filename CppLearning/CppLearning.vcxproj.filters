@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="usealgo.cpp">
+    <ClCompile Include="valvect.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
